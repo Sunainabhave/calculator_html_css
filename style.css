@@ -1,0 +1,81 @@
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 10px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 35px;
+    font-size: 20px;
+    background-color: hsl(0, 0%, 30%);
+    border: none;
+    color: aqua;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: rgb(78, 223, 228);
+    font-size: xx-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+
+.operator-btn{
+    background-color: hsl(16, 100%, 66%);
+}
+
+.operator-btn:hover{
+    background-color: hsl(16, 100%, 70%);
+}
+
+.operator-btn:active{
+    background-color: hsl(16, 100%, 80%);
+}
+
+/* .last{
+    width: 200px;
+    display: inline;
+}
+
+.last{
+    background-color: hsl(16, 100%, 66%);
+}
+
+.last:hover{
+    background-color: hsl(16, 100%, 70%);
+}
+
+.last:active{
+    background-color: hsl(16, 100%, 80%);
+} */
